@@ -1,0 +1,38 @@
+/* Home.css */
+
+.bg-image {
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/40/Mango_4.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black; /* Text color for better visibility on the background */
+}
+
+button {
+  background-color: darkgrey;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

@@ -1,0 +1,79 @@
+.card {
+  width: 18rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio and fill the image container */
+  border-radius: 0.375rem; /* Rounded corners for images */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.card:hover .product-img {
+  transform: scale(1.05); /* Slight zoom effect on image on hover */
+}
+
+/* Card body and text styling */
+.card-body {
+  padding: 1rem;
+}
+
+.product-name {
+  font-size: 1.25rem; /* Font size for product name */
+  font-weight: 600;
+  color: #333; /* Dark text color */
+  margin-bottom: 0.5rem; /* Space between name and price */
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ef226a; /* Green color for price */
+  margin-bottom: 1rem; /* Space between price and button */
+}
+
+/* Button Styling */
+.add-to-cart-btn {
+  width: 100%; /* Full-width button */
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.375rem; /* Rounded corners */
+  background-color: #ff6347; /* Tomato red background */
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #e5533f; /* Darken the button on hover */
+}
+
+.add-to-cart-btn:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+  .card {
+    width: 100%; /* Make the card take full width on small screens */
+  }
+
+  .product-img {
+    height: 180px; /* Slightly smaller image on small screens */
+  }
+
+  .product-name {
+    font-size: 1.1rem; /* Adjust product name font size */
+  }
+
+  .product-price {
+    font-size: 1rem; /* Adjust price font size */
+  }
+}

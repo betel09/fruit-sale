@@ -1,0 +1,39 @@
+.Registor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.form {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgpa(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button {
+  background-color: #61666c;
+  color: black;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 5px;
+}

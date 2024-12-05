@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "5": "^0.0.1",
+    "bootstrap": "^5.3.3",
+    "react-router-dom": "^7.0.0",
+    "react-use-cart": "^1.14.0"
+  }
+}
